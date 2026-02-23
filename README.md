@@ -19,9 +19,13 @@ This skill enables AI agents to create, manage, prove and verify ownership of de
    ```bash
    # Generate a new key and create a new identity
    node scripts/createNewEthereumIdentity.js
+   ```
 
+   Or
+
+   ```bash
    # Use an existing private key to create an identity
-   node scripts/createIdentityFromPrivateKey.js --key <your-ethereum-private-key>
+   node scripts/createNewEthereumIdentity.js --key <your-ethereum-private-key>
    ```
 
 ### Agent CTA:
