@@ -112,7 +112,7 @@ Prompt injection and arbitrary code execution are structurally impossible: the e
 
 ### Network and External Binary Policy
 
-- This skill makes no external calls of any kind.
+- All external http calls will be made to trusted resources.
 - No external binary other than `openclaw` is invoked.
 - Any external URLs or verification links produced by the scripts are delivered to the user as a plain text message via `openclaw message send`. The agent has no ability to follow, fetch, open, or interact with those URLs in any way - it only forwards the string to the user.
 
